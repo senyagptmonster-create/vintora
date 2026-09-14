@@ -1,0 +1,5 @@
+package app.vintora.brew.timer
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
