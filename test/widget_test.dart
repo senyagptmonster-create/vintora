@@ -1,10 +1,9 @@
-import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:vintora/product/product_app.dart';
+import 'package:vintora/vintora_app.dart';
 
 void main() {
-  testWidgets('Smoke test', (WidgetTester tester) async {
-    await tester.pumpWidget(const MaterialApp(home: ProductApp()));
-    expect(find.byType(ProductApp), findsOneWidget);
+  testWidgets('VintoraBrewApp smoke test', (WidgetTester tester) async {
+    await tester.pumpWidget(const VintoraBrewApp());
+    expect(find.byType(VintoraBrewApp), findsOneWidget);
   });
 }
